@@ -1,0 +1,25 @@
+#a{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#a td,
+#a th{border: 1px solid red;
+    padding: 8px;
+
+}
+#a tr:nth-child(odd) {
+    background-color: pink;
+
+}
+#a tr:hover{
+    background-color: white;
+
+}
+#a th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: green;
+    color: aqua;
+}

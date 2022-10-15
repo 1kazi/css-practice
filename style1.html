@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style attribute</title>
+    <!-- external css  -->
+    <link rel="stylesheet" href="style1.css">
+    <!-- internal class
+    <style>
+        main {
+            font-weight: 800;
+            background-color: black;
+        }
+    </style> -->
+    <style>
+        body {
+            background-image: url(havard.jpg);
+            background-repeat: no-repeat;
+            background-size:
+                cover;
+        }
+
+        /* 
+        attribute selectors */
+        a[href ="https://www.facebook.com"] {
+            background-color: coral;}
+            a[target]{background-color: pink;}
+            a[target="_blank"] {background-color: green;}
+            
+    </style>
+</head>
+
+<body class="centered">
+    <header class="large">havrd university</header>
+    <main class="medium">welcome to the home page</main>
+    <footer class="small">copyright &copy; havard</footer>
+    <p id="first" style="border:2px solid green">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum
+        et minima cumque assumenda facilis, velit saepe eligendi accusamus alias.</p>
+    <p id="second">Lorem ipsum, dolor sit amet consectetur adipisicing.
+    </p>
+    <a href="https://www.google.com">GOOGLE</a>
+    <a href="https://www.toutube.com" target="_self">youtube</a>
+
+    <a href="https://www.facebook.com" >facebook</a>
+
+    <a href="https://www.yahoo.com" target="_blank">yahoo</a>
+
+</body>
+
+</html>

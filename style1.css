@@ -1,0 +1,19 @@
+.large {
+    font-size: large;
+    text-align: center;
+}
+
+.medium {
+    font-size: medium;
+    text-align: center;
+}
+
+.small {
+    font-size: small;
+    text-align: center;
+}
+.centered{text-align: center;}
+#first{color: brown; background-color: pink}
+#second{color: darkgreen; background-color: aqua ;};
+
+/* for large font comment */
